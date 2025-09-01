@@ -1,2 +1,2 @@
 # Rexis
-A code-based electronics simulator
+A code-based electronic simulator
