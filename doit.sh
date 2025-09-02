@@ -21,7 +21,6 @@ if [[ "$1" == *"h"* ]]; then
     echo "'h' for more commands"
     echo "'c' for clean"
     echo "'d' for debug"
-    echo "'R' for release"
     echo "'v' for valgrind"
     exit 0
 fi
