@@ -31,7 +31,7 @@ if [[ "$1" == *"d"* ]]; then
     make -j$(nproc)
     echo "Built Debug"
     gdb ./$EXECUTABLE
-    ../doit.sh c
+    ../build.sh c
     exit 0
 fi
 
@@ -51,7 +51,7 @@ if [[ "$1" == *"v"* ]]; then
     make -j$(nproc)
     echo "Built Debug"
     valgrind --leak-check=full ./$EXECUTABLE
-    ../doit.sh c
+    ../build.sh c
     exit 0
 fi
 
